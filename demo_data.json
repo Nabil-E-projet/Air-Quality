@@ -1,0 +1,2502 @@
+{
+  "locations": [
+    {
+      "id": 1,
+      "city": "Paris",
+      "country": "FR",
+      "latitude": 48.9,
+      "longitude": 2.3999996,
+      "last_updated": "2025-11-22 03:02:01.101997"
+    },
+    {
+      "id": 2,
+      "city": "Lyon",
+      "country": "FR",
+      "latitude": 45.8,
+      "longitude": 4.800001,
+      "last_updated": "2025-11-22 03:02:01.105421"
+    },
+    {
+      "id": 3,
+      "city": "Marseille",
+      "country": "FR",
+      "latitude": 43.3,
+      "longitude": 5.3999996,
+      "last_updated": "2025-11-22 03:02:01.106342"
+    },
+    {
+      "id": 4,
+      "city": "Berlin",
+      "country": "DE",
+      "latitude": 52.5,
+      "longitude": 13.400002,
+      "last_updated": "2025-11-22 03:02:01.107042"
+    },
+    {
+      "id": 5,
+      "city": "Munich",
+      "country": "DE",
+      "latitude": 48.1,
+      "longitude": 11.600002,
+      "last_updated": "2025-11-22 03:02:01.107728"
+    },
+    {
+      "id": 6,
+      "city": "Madrid",
+      "country": "ES",
+      "latitude": 40.4,
+      "longitude": -3.6999989,
+      "last_updated": "2025-11-22 03:02:01.108633"
+    },
+    {
+      "id": 7,
+      "city": "Barcelona",
+      "country": "ES",
+      "latitude": 41.4,
+      "longitude": 2.2000008,
+      "last_updated": "2025-11-22 03:02:01.109320"
+    },
+    {
+      "id": 8,
+      "city": "Rome",
+      "country": "IT",
+      "latitude": 41.9,
+      "longitude": 12.5,
+      "last_updated": "2025-11-22 03:02:01.110166"
+    },
+    {
+      "id": 9,
+      "city": "Milan",
+      "country": "IT",
+      "latitude": 45.5,
+      "longitude": 9.200001,
+      "last_updated": "2025-11-22 03:02:01.110862"
+    },
+    {
+      "id": 10,
+      "city": "Brussels",
+      "country": "BE",
+      "latitude": 50.9,
+      "longitude": 4.3999996,
+      "last_updated": "2025-11-22 03:02:01.111518"
+    },
+    {
+      "id": 11,
+      "city": "Amsterdam",
+      "country": "NL",
+      "latitude": 52.4,
+      "longitude": 4.8999996,
+      "last_updated": "2025-11-22 03:02:01.112259"
+    },
+    {
+      "id": 12,
+      "city": "Zurich",
+      "country": "CH",
+      "latitude": 47.4,
+      "longitude": 8.5,
+      "last_updated": "2025-11-22 03:02:01.113037"
+    }
+  ],
+  "measurements": [
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 30.4,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 33.6,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 441.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 49.2,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 5.6,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 0.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Lyon",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 13.2,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Lyon",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 15.6,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Lyon",
+      "country": "FR",
+      "parameter": "co",
+      "value": 196.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Lyon",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 8.9,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Lyon",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 1.7,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Lyon",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 41.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Marseille",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 5.7,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Marseille",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 7.9,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Marseille",
+      "country": "FR",
+      "parameter": "co",
+      "value": 177.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Marseille",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 5.4,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Marseille",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 0.7,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Marseille",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 57.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Berlin",
+      "country": "DE",
+      "parameter": "pm25",
+      "value": 13.7,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Berlin",
+      "country": "DE",
+      "parameter": "pm10",
+      "value": 17.7,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Berlin",
+      "country": "DE",
+      "parameter": "co",
+      "value": 235.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Berlin",
+      "country": "DE",
+      "parameter": "no2",
+      "value": 27.4,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Berlin",
+      "country": "DE",
+      "parameter": "so2",
+      "value": 2.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Berlin",
+      "country": "DE",
+      "parameter": "o3",
+      "value": 17.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Munich",
+      "country": "DE",
+      "parameter": "pm25",
+      "value": 11.9,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Munich",
+      "country": "DE",
+      "parameter": "pm10",
+      "value": 15.7,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Munich",
+      "country": "DE",
+      "parameter": "co",
+      "value": 206.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Munich",
+      "country": "DE",
+      "parameter": "no2",
+      "value": 24.5,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Munich",
+      "country": "DE",
+      "parameter": "so2",
+      "value": 2.5,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Munich",
+      "country": "DE",
+      "parameter": "o3",
+      "value": 22.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Madrid",
+      "country": "ES",
+      "parameter": "pm25",
+      "value": 9.5,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Madrid",
+      "country": "ES",
+      "parameter": "pm10",
+      "value": 12.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Madrid",
+      "country": "ES",
+      "parameter": "co",
+      "value": 176.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Madrid",
+      "country": "ES",
+      "parameter": "no2",
+      "value": 34.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Madrid",
+      "country": "ES",
+      "parameter": "so2",
+      "value": 4.7,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Madrid",
+      "country": "ES",
+      "parameter": "o3",
+      "value": 19.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Barcelona",
+      "country": "ES",
+      "parameter": "pm25",
+      "value": 3.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Barcelona",
+      "country": "ES",
+      "parameter": "pm10",
+      "value": 4.2,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Barcelona",
+      "country": "ES",
+      "parameter": "co",
+      "value": 146.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Barcelona",
+      "country": "ES",
+      "parameter": "no2",
+      "value": 8.1,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Barcelona",
+      "country": "ES",
+      "parameter": "so2",
+      "value": 1.3,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Barcelona",
+      "country": "ES",
+      "parameter": "o3",
+      "value": 70.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Rome",
+      "country": "IT",
+      "parameter": "pm25",
+      "value": 7.6,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Rome",
+      "country": "IT",
+      "parameter": "pm10",
+      "value": 7.8,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Rome",
+      "country": "IT",
+      "parameter": "co",
+      "value": 184.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Rome",
+      "country": "IT",
+      "parameter": "no2",
+      "value": 17.4,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Rome",
+      "country": "IT",
+      "parameter": "so2",
+      "value": 0.7,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Rome",
+      "country": "IT",
+      "parameter": "o3",
+      "value": 55.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Milan",
+      "country": "IT",
+      "parameter": "pm25",
+      "value": 7.8,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Milan",
+      "country": "IT",
+      "parameter": "pm10",
+      "value": 8.7,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Milan",
+      "country": "IT",
+      "parameter": "co",
+      "value": 214.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Milan",
+      "country": "IT",
+      "parameter": "no2",
+      "value": 18.9,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Milan",
+      "country": "IT",
+      "parameter": "so2",
+      "value": 1.3,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Milan",
+      "country": "IT",
+      "parameter": "o3",
+      "value": 38.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Brussels",
+      "country": "BE",
+      "parameter": "pm25",
+      "value": 31.8,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Brussels",
+      "country": "BE",
+      "parameter": "pm10",
+      "value": 35.5,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Brussels",
+      "country": "BE",
+      "parameter": "co",
+      "value": 431.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Brussels",
+      "country": "BE",
+      "parameter": "no2",
+      "value": 48.4,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Brussels",
+      "country": "BE",
+      "parameter": "so2",
+      "value": 4.9,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Brussels",
+      "country": "BE",
+      "parameter": "o3",
+      "value": 0.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Amsterdam",
+      "country": "NL",
+      "parameter": "pm25",
+      "value": 17.6,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Amsterdam",
+      "country": "NL",
+      "parameter": "pm10",
+      "value": 18.5,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Amsterdam",
+      "country": "NL",
+      "parameter": "co",
+      "value": 237.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Amsterdam",
+      "country": "NL",
+      "parameter": "no2",
+      "value": 44.9,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Amsterdam",
+      "country": "NL",
+      "parameter": "so2",
+      "value": 3.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Amsterdam",
+      "country": "NL",
+      "parameter": "o3",
+      "value": 12.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Zurich",
+      "country": "CH",
+      "parameter": "pm25",
+      "value": 9.8,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Zurich",
+      "country": "CH",
+      "parameter": "pm10",
+      "value": 10.8,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Zurich",
+      "country": "CH",
+      "parameter": "co",
+      "value": 180.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Zurich",
+      "country": "CH",
+      "parameter": "no2",
+      "value": 12.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Zurich",
+      "country": "CH",
+      "parameter": "so2",
+      "value": 1.2,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Zurich",
+      "country": "CH",
+      "parameter": "o3",
+      "value": 47.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 03:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 18.5,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 00:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 23.2,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 00:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 342.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 00:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 47.7,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 00:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 4.1,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 00:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 12.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 00:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 17.8,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 01:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 21.5,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 01:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 295.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 01:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 42.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 01:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 3.5,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 01:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 15.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 01:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 14.9,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 02:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 20.2,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 02:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 274.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 02:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 37.3,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 02:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 3.2,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 02:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 27.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 02:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 14.1,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 03:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 18.1,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 03:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 246.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 03:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 27.1,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 03:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 3.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 03:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 36.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 03:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 13.9,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 04:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 16.8,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 04:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 230.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 04:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 25.8,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 04:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 3.1,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 04:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 36.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 04:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 13.2,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 05:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 16.9,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 05:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 222.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 05:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 25.4,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 05:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 3.5,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 05:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 36.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 05:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 14.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 06:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 17.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 06:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 223.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 06:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 29.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 06:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 3.8,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 06:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 32.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 06:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 13.1,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 07:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 17.6,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 07:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 251.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 07:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 38.5,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 07:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 4.9,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 07:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 14.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 07:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 14.4,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 08:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 18.1,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 08:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 368.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 08:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 49.9,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 08:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 5.8,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 08:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 2.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 08:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 14.2,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 09:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 17.3,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 09:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 362.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 09:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 52.5,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 09:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 5.6,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 09:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 2.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 09:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 13.4,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 10:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 17.4,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 10:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 348.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 10:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 50.6,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 10:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 5.4,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 10:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 8.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 10:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 9.2,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 11:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 14.9,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 11:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 322.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 11:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 42.7,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 11:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 3.3,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 11:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 20.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 11:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 8.1,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 12:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 12.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 12:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 258.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 12:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 34.1,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 12:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 2.6,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 12:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 34.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 12:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 7.3,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 13:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 10.8,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 13:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 228.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 13:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 25.1,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 13:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 2.3,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 13:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 40.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 13:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 7.4,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 14:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 10.9,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 14:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 220.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 14:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 24.4,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 14:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 2.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 14:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 43.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 14:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 7.8,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 15:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 10.9,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 15:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 223.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 15:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 28.8,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 15:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 1.9,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 15:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 39.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 15:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 8.8,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 16:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 12.5,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 16:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 236.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 16:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 32.8,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 16:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 2.3,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 16:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 27.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 16:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 12.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 17:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 15.2,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 17:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 308.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 17:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 42.6,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 17:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 3.2,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 17:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 22.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 17:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 14.8,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 18:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 19.4,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 18:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 404.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 18:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 62.9,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 18:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 5.1,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 18:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 4.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 18:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 19.6,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 19:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 22.8,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 19:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 507.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 19:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 65.9,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 19:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 7.1,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 19:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 1.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 19:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 21.8,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 20:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 26.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 20:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 469.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 20:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 60.3,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 20:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 7.9,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 20:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 1.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 20:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 24.8,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 21:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 29.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 21:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 453.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 21:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 55.3,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 21:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 8.4,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 21:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 0.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 21:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 25.5,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 22:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 31.2,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 22:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 460.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 22:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 55.2,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 22:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 8.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 22:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 0.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 22:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 27.4,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 23:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 32.7,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 23:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 455.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 23:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 52.1,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 23:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 7.2,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 23:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 0.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-21 23:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 27.9,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 00:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 33.5,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 00:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 455.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 00:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 49.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 00:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 7.5,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 00:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 0.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 00:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 28.1,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 01:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 34.1,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 01:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 454.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 01:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 48.7,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 01:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 5.7,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 01:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 0.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 01:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 29.2,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 02:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 33.7,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 02:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 446.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 02:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 50.3,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 02:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 5.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 02:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 0.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 02:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 30.7,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 04:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 34.5,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 04:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 440.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 04:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 46.5,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 04:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 6.4,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 04:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 0.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 04:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 32.5,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 05:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 36.6,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 05:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 408.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 05:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 44.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 05:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 7.8,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 05:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 0.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 05:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 34.4,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 06:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 37.6,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 06:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 411.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 06:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 46.5,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 06:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 7.2,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 06:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 0.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 06:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 34.3,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 07:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 39.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 07:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 471.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 07:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 49.5,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 07:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 10.8,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 07:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 0.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 07:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 33.3,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 08:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 38.3,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 08:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 559.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 08:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 49.5,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 08:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 12.2,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 08:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 0.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 08:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 30.8,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 09:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 34.9,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 09:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 513.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 09:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 49.7,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 09:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 9.9,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 09:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 1.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 09:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 30.1,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 10:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 34.1,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 10:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 500.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 10:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 47.7,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 10:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 7.9,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 10:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 6.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 10:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 25.5,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 11:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 31.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 11:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 431.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 11:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 43.7,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 11:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 6.7,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 11:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 13.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 11:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 20.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 12:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 22.5,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 12:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 324.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 12:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 31.1,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 12:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 3.8,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 12:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 31.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 12:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 16.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 13:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 19.5,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 13:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 263.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 13:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 22.8,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 13:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 2.4,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 13:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 34.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 13:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm25",
+      "value": 11.9,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 14:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "pm10",
+      "value": 16.3,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 14:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "co",
+      "value": 233.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 14:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "no2",
+      "value": 19.2,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 14:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "so2",
+      "value": 2.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 14:00:00.000000"
+    },
+    {
+      "city": "Paris",
+      "country": "FR",
+      "parameter": "o3",
+      "value": 35.0,
+      "unit": "\u00b5g/m\u00b3",
+      "measurement_date": "2025-11-22 14:00:00.000000"
+    }
+  ]
+}

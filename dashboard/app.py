@@ -9,7 +9,33 @@ from sqlalchemy import text
 
 # Ajout du chemin racine pour les imports
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from database.config import get_engine
+from database.config import get_engine, init_db
+from database.load_demo import load_demo_data
+
+# Initialiser la base de données si elle n'existe pas
+try:
+    engine = get_engine()
+    # Vérifier si les tables existent
+    with engine.connect() as conn:
+        result = conn.execute(text("SELECT name FROM sqlite_master WHERE type='table' AND name='measurements'"))
+        if not result.fetchone():
+            # La base n'existe pas, on l'initialise
+            init_db()
+            # Charger les données de démo
+            if load_demo_data():
+                st.success("Base de données initialisée avec des données de démonstration")
+            else:
+                st.info("Base de données initialisée. Exécutez `python src/pipeline.py` pour charger des données.")
+        else:
+            # Vérifier si la base est vide
+            result = conn.execute(text("SELECT COUNT(*) FROM measurements"))
+            count = result.fetchone()[0]
+            if count == 0:
+                # Base vide, charger les données de démo
+                if load_demo_data():
+                    st.success("Données de démonstration chargées")
+except Exception as e:
+    st.error(f"Erreur d'initialisation : {e}")
 
 # Configuration de la page
 st.set_page_config(
