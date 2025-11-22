@@ -62,13 +62,14 @@ def load_data():
         m.measurement_date
     FROM measurements m
     JOIN locations l ON m.location_id = l.id
-    WHERE m.measurement_date >= datetime('now', '-7 days')
     ORDER BY m.measurement_date DESC
     """
     
     try:
         with engine.connect() as conn:
             df = pd.read_sql(query, conn)
+            # Conversion explicite des dates
+            df['measurement_date'] = pd.to_datetime(df['measurement_date'])
             return df
     except Exception as e:
         st.error(f"Erreur de connexion à la base de données: {e}")
