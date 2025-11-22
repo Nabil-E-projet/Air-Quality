@@ -53,4 +53,3 @@ data/           Base de données (générée automatiquement)
 
 Polluants mesurés : PM2.5, PM10, NO₂, O₃, SO₂, CO  
 Villes surveillées : Paris, Lyon, Marseille, Berlin, Munich, Madrid, Barcelona, Rome, Milan, Brussels, Amsterdam, Zurich
-# Air-Quality
