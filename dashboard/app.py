@@ -171,14 +171,19 @@ def main():
         # GRAPHIQUE 1: Évolution temporelle
         st.subheader(f"📈 Évolution de {selected_param.upper()} dans le temps")
         
+        # Identifier les 5 villes les plus polluées pour ce paramètre
+        top_cities_for_param = filtered_df.groupby('city')['value'].mean().nlargest(5).index.tolist()
+        df_top_cities = filtered_df[filtered_df['city'].isin(top_cities_for_param)]
+        
         fig_time = px.line(
-            filtered_df,
+            df_top_cities,
             x='measurement_date',
             y='value',
             color='city',
-            title=f"Concentration de {selected_param.upper()} par ville",
+            title=f"Évolution de {selected_param.upper()} - Top 5 villes les plus polluées",
             labels={'value': f'{selected_param.upper()} ({filtered_df["unit"].iloc[0]})', 
-                    'measurement_date': 'Date'}
+                    'measurement_date': 'Date',
+                    'city': 'Ville'}
         )
         fig_time.update_layout(height=400)
         st.plotly_chart(fig_time, width='stretch')
