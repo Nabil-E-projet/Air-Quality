@@ -158,7 +158,7 @@ def main():
             index=0
         )
         
-        # Filtrer les données
+        # Filtrer les données par pays et paramètre
         filtered_df = df[
             (df['country'].isin(selected_countries)) &
             (df['parameter'] == selected_param)
@@ -167,21 +167,32 @@ def main():
         if filtered_df.empty:
             st.warning("Aucune donnée pour les filtres sélectionnés.")
             return
+
+        # Filtre par ville (dynamique)
+        available_cities = sorted(filtered_df['city'].unique())
+        selected_cities = st.sidebar.multiselect(
+            "Villes",
+            options=available_cities,
+            default=available_cities  # Toutes les villes par défaut
+        )
+        
+        # Appliquer le filtre ville
+        final_df = filtered_df[filtered_df['city'].isin(selected_cities)]
+        
+        if final_df.empty:
+            st.warning("Veuillez sélectionner au moins une ville.")
+            return
         
         # GRAPHIQUE 1: Évolution temporelle
         st.subheader(f"📈 Évolution de {selected_param.upper()} dans le temps")
         
-        # Identifier les 5 villes les plus polluées pour ce paramètre
-        top_cities_for_param = filtered_df.groupby('city')['value'].mean().nlargest(5).index.tolist()
-        df_top_cities = filtered_df[filtered_df['city'].isin(top_cities_for_param)]
-        
         fig_time = px.line(
-            df_top_cities,
+            final_df,
             x='measurement_date',
             y='value',
             color='city',
-            title=f"Évolution de {selected_param.upper()} - Top 5 villes les plus polluées",
-            labels={'value': f'{selected_param.upper()} ({filtered_df["unit"].iloc[0]})', 
+            title=f"Concentration de {selected_param.upper()} par ville",
+            labels={'value': f'{selected_param.upper()} ({final_df["unit"].iloc[0]})', 
                     'measurement_date': 'Date',
                     'city': 'Ville'}
         )
@@ -191,13 +202,13 @@ def main():
         # GRAPHIQUE 2: Comparaison par ville
         st.subheader(f"🏙️ Comparaison par ville - {selected_param.upper()}")
         
-        city_avg = filtered_df.groupby('city')['value'].mean().sort_values(ascending=False).head(10)
+        city_avg = final_df.groupby('city')['value'].mean().sort_values(ascending=False)
         
         fig_bar = px.bar(
             x=city_avg.index,
             y=city_avg.values,
             title=f"Moyenne de {selected_param.upper()} par ville",
-            labels={'x': 'Ville', 'y': f'{selected_param.upper()} moyen ({filtered_df["unit"].iloc[0]})'},
+            labels={'x': 'Ville', 'y': f'{selected_param.upper()} moyen ({final_df["unit"].iloc[0]})'},
             color=city_avg.values,
             color_continuous_scale='RdYlGn_r'
         )
@@ -207,8 +218,8 @@ def main():
         # GRAPHIQUE 3: Carte géographique
         st.subheader(f"🗺️ Carte de la pollution - {selected_param.upper()}")
         
-        # Données agrégées par ville
-        map_data = filtered_df.groupby(['city', 'country', 'latitude', 'longitude']).agg({
+        # Données agrégées par ville (sur final_df pour être cohérent)
+        map_data = final_df.groupby(['city', 'country', 'latitude', 'longitude']).agg({
             'value': 'mean'
         }).reset_index()
         
@@ -239,7 +250,7 @@ def main():
         st.subheader("📊 Données détaillées")
         
         # Top 10 villes les plus polluées
-        top_cities = filtered_df.groupby('city').agg({
+        top_cities = final_df.groupby('city').agg({
             'value': ['mean', 'max', 'min', 'count']
         }).round(2)
         top_cities.columns = ['Moyenne', 'Maximum', 'Minimum', 'Nb mesures']
