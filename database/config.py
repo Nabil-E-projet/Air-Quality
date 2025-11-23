@@ -28,8 +28,13 @@ def init_db():
     from database.models import Location, Measurement
     
     # Créer toutes les tables définies dans nos modèles
-    Base.metadata.create_all(engine)
-    print(f"Base de donnees initialisee : {get_db_path()}")
+    # checkfirst=True évite les erreurs si les tables existent déjà
+    try:
+        Base.metadata.create_all(engine, checkfirst=True)
+        print(f"Base de donnees initialisee : {get_db_path()}")
+    except Exception as e:
+        # Si erreur (ex: table existe déjà), on ignore silencieusement
+        pass
 
 def get_session():
     # Ouvrir une nouvelle connexion à la base
