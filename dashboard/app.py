@@ -147,7 +147,7 @@ def main():
         selected_countries = st.sidebar.multiselect(
             "Pays",
             options=countries,
-            default=countries[:3] if len(countries) > 3 else countries
+            default=countries  # Tous les pays par défaut
         )
         
         # Filtre par paramètre
